@@ -1,8 +1,24 @@
 aid: medisage
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/medisage.png
 name: MediSage
-description: 'MediSage is a company surfaced as a portfolio company of bessemer-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'MediSage is an India-based digital health company that operates one of
+  Asia''s largest online medical communities, connecting doctors and healthcare practitioners
+  with first-hand, peer-reviewed medical information, live CME webinars, clinical discussion
+  forums, medical news, and professional networking. Backed by Bessemer Venture Partners,
+  MediSage delivers its knowledge platform primarily through consumer-facing web and
+  mobile applications for physicians; no public developer API, OpenAPI specification,
+  or partner integration surface has been identified at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/medisage/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Healthcare
+- Medical Community
+- Doctors
+- Continuing Medical Education
+- Digital Health
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +46,18 @@ maintainers:
 common:
 - type: Website
   url: https://mymedisage.com/home
+- type: SignUp
+  url: https://mymedisage.com/login
+- type: Blog
+  url: https://mymedisage.medium.com/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/mymedisage
+- type: MobileApp
+  url: https://play.google.com/store/apps/details?id=com.mymedisage.medisageapp
+- type: DomainSecurity
+  url: security/medisage-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
